@@ -16,15 +16,22 @@ if(l5B76A98C_0)
 	/// @DnDArgument : "value" "100"
 	if(distance_to_object(player_Player) <= 100)
 	{
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
-		/// @DnDHash : 641B546A
+		/// @DnDHash : 26B743D8
 		/// @DnDParent : 15C8B754
-		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos_relative" "1"
-		/// @DnDArgument : "objectid" "enemy_Spear"
-		/// @DnDSaveInfo : "objectid" "enemy_Spear"
-		instance_create_layer(x + 0, y + 0, "Instances", enemy_Spear);
+		/// @DnDArgument : "spriteind" "spr_spearmanspear"
+		/// @DnDSaveInfo : "spriteind" "spr_spearmanspear"
+		sprite_index = spr_spearmanspear;
+		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 647A4C52
+		/// @DnDParent : 15C8B754
+		/// @DnDArgument : "steps" "90"
+		/// @DnDArgument : "alarm" "5"
+		alarm_set(5, 90);
 	}
 }
 

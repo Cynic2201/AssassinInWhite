@@ -25,10 +25,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":5,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"move_speed","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemy_damage","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"-25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"attack_speed","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"180","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
