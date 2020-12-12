@@ -10,6 +10,7 @@
     {"id":{"name":"enemy_Bolt","path":"objects/enemy_Bolt/enemy_Bolt.yy",},"order":5,},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":4,},
     {"id":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"order":9,},
+    {"id":{"name":"spr_floatingblock","path":"sprites/spr_floatingblock/spr_floatingblock.yy",},"order":13,},
     {"id":{"name":"text_GameOver","path":"objects/text_GameOver/text_GameOver.yy",},"order":6,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
     {"id":{"name":"spr_spearman","path":"sprites/spr_spearman/spr_spearman.yy",},"order":9,},
