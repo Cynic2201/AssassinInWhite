@@ -1,8 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 6928652B
-instance_destroy();
-
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 53A94019
@@ -14,3 +9,8 @@ with(Controller) {
 
 y += -200;
 }
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 6928652B
+instance_destroy();
