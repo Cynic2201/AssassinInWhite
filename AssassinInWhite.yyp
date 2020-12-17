@@ -12,6 +12,7 @@
     {"id":{"name":"spr_bolt","path":"sprites/spr_bolt/spr_bolt.yy",},"order":7,},
     {"id":{"name":"spr_spearmanspear","path":"sprites/spr_spearmanspear/spr_spearmanspear.yy",},"order":11,},
     {"id":{"name":"enemy_Bolt","path":"objects/enemy_Bolt/enemy_Bolt.yy",},"order":5,},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":17,},
     {"id":{"name":"spr_level1","path":"sprites/spr_level1/spr_level1.yy",},"order":14,},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":4,},
     {"id":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"order":9,},
@@ -51,9 +52,9 @@
   },
   "RoomOrder": [
     {"name":"Room2","path":"rooms/Room2/Room2.yy",},
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Room3","path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","path":"rooms/Room4/Room4.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

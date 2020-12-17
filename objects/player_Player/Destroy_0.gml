@@ -3,6 +3,16 @@
 /// @DnDHash : 03AA929B
 room_restart();
 
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 022C8250
+/// @DnDApplyTo : {Controller}
+/// @DnDArgument : "health" "100"
+with(Controller) {
+
+__dnd_health = real(100);
+}
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 2B7BEDB6
