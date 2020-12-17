@@ -7,13 +7,22 @@ var l2812D4BE_0 = false;
 l2812D4BE_0 = instance_exists(player_Player);
 if(l2812D4BE_0)
 {
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 60E87707
+	/// @DnDParent : 2812D4BE
+	/// @DnDArgument : "steps" "60"
+	/// @DnDArgument : "alarm" "5"
+	alarm_set(5, 60);
+
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 387568C5
 	/// @DnDParent : 2812D4BE
 	/// @DnDArgument : "x" "player_Player.x"
+	/// @DnDArgument : "y" "player_Player.y"
 	/// @DnDArgument : "y_relative" "1"
-	direction = point_direction(x, y, player_Player.x, y + 0);
+	direction = point_direction(x, y, player_Player.x, y + player_Player.y);
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1

@@ -3,7 +3,7 @@
     "name": "spr_floatingblock",
     "path": "sprites/spr_floatingblock/spr_floatingblock.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
