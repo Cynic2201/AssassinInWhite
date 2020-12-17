@@ -11,9 +11,9 @@ if(l2812D4BE_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 60E87707
 	/// @DnDParent : 2812D4BE
-	/// @DnDArgument : "steps" "60"
+	/// @DnDArgument : "steps" "180"
 	/// @DnDArgument : "alarm" "5"
-	alarm_set(5, 60);
+	alarm_set(5, 180);
 
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
