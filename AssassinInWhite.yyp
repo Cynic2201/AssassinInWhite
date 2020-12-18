@@ -7,6 +7,8 @@
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"spr_level2","path":"sprites/spr_level2/spr_level2.yy",},"order":16,},
     {"id":{"name":"spr_spear","path":"sprites/spr_spear/spr_spear.yy",},"order":10,},
+    {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},"order":18,},
+    {"id":{"name":"enemy_spikes","path":"objects/enemy_spikes/enemy_spikes.yy",},"order":17,},
     {"id":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"order":1,},
     {"id":{"name":"Block","path":"objects/Block/Block.yy",},"order":0,},
     {"id":{"name":"spr_bolt","path":"sprites/spr_bolt/spr_bolt.yy",},"order":7,},

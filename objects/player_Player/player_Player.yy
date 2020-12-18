@@ -30,6 +30,7 @@
     {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"NextRoom","path":"objects/NextRoom/NextRoom.yy",},"parent":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"parent":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"enemy_spikes","path":"objects/enemy_spikes/enemy_spikes.yy",},"parent":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"player_speed","tags":[],"resourceType":"GMObjectProperty",},
