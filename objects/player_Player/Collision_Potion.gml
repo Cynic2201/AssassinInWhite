@@ -18,10 +18,14 @@ with(other) instance_destroy();
 /// @DnDAction : YoYo Games.Instance Variables.If_Health
 /// @DnDVersion : 1
 /// @DnDHash : 33DB40EB
+/// @DnDApplyTo : {Controller}
 /// @DnDArgument : "op" "2"
 /// @DnDArgument : "value" "100"
+with(Controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health > 100)
+var l33DB40EB_0 = __dnd_health > 100;
+}
+if(l33DB40EB_0)
 {
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 	/// @DnDVersion : 1
