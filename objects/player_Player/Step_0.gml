@@ -399,25 +399,26 @@ if(has_won == true)
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 6B9CEBAB
-/// @DnDArgument : "x" "-3"
+/// @DnDArgument : "x" "-10"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Block"
 /// @DnDSaveInfo : "object" "Block"
-var l6B9CEBAB_0 = instance_place(x + -3, y + 0, Block);
+var l6B9CEBAB_0 = instance_place(x + -10, y + 0, Block);
 if ((l6B9CEBAB_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 01D260C6
 	/// @DnDParent : 6B9CEBAB
+	/// @DnDArgument : "x" "3"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "Block"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "Block"
-	var l01D260C6_0 = instance_place(x + 0, y + 25, Block);
+	var l01D260C6_0 = instance_place(x + 3, y + 25, Block);
 	if (!(l01D260C6_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
@@ -447,25 +448,26 @@ if ((l6B9CEBAB_0 > 0))
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 36649B11
-/// @DnDArgument : "x" "3"
+/// @DnDArgument : "x" "10"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Block"
 /// @DnDSaveInfo : "object" "Block"
-var l36649B11_0 = instance_place(x + 3, y + 0, Block);
+var l36649B11_0 = instance_place(x + 10, y + 0, Block);
 if ((l36649B11_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 4F260B08
 	/// @DnDParent : 36649B11
+	/// @DnDArgument : "x" "-3"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "Block"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "Block"
-	var l4F260B08_0 = instance_place(x + 0, y + 25, Block);
+	var l4F260B08_0 = instance_place(x + -3, y + 25, Block);
 	if (!(l4F260B08_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
