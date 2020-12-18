@@ -32,6 +32,7 @@
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},"order":1,},
     {"id":{"name":"spr_floatingblock","path":"sprites/spr_floatingblock/spr_floatingblock.yy",},"order":13,},
     {"id":{"name":"spr_Names","path":"sprites/spr_Names/spr_Names.yy",},"order":21,},
+    {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":23,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"text_GameOver","path":"objects/text_GameOver/text_GameOver.yy",},"order":6,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
