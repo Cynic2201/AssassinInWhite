@@ -83,8 +83,8 @@
   },
   "RoomOrder": [
     {"name":"Room2","path":"rooms/Room2/Room2.yy",},
-    {"name":"Room3","path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","path":"rooms/Room4/Room4.yy",},
+    {"name":"Room3","path":"rooms/Room3/Room3.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],
   "Folders": [
