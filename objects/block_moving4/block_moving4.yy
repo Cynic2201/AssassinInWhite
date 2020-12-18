@@ -23,12 +23,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"block_moving4","path":"objects/block_moving4/block_moving4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":3,"eventType":2,"collisionObjectId":null,"parent":{"name":"block_moving4","path":"objects/block_moving4/block_moving4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"block_moving4","path":"objects/block_moving4/block_moving4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"block_moving4","path":"objects/block_moving4/block_moving4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"block_moving4","path":"objects/block_moving4/block_moving4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"vtime","path":"objects/block_moving/block_moving.yy",},"objectId":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"value":"260","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"htime","path":"objects/block_moving/block_moving.yy",},"objectId":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"value":"240","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"move_speed","path":"objects/block_moving/block_moving.yy",},"objectId":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"value":"-3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"move_speed","path":"objects/block_moving/block_moving.yy",},"objectId":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
