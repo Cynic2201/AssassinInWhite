@@ -15,8 +15,8 @@ if (!(l32AC7755_0 > 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 06E6B6E4
 	/// @DnDParent : 32AC7755
-	/// @DnDArgument : "force" "0.15"
-	gravity = 0.15;
+	/// @DnDArgument : "force" "grav_force"
+	gravity = grav_force;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -295,8 +295,8 @@ if (l0E42BB94_0)
 					/// @DnDVersion : 1
 					/// @DnDHash : 557EE5B4
 					/// @DnDParent : 49C8DAB4
-					/// @DnDArgument : "force" "0.15"
-					gravity = 0.15;
+					/// @DnDArgument : "force" "grav_force"
+					gravity = grav_force;
 				}
 			}
 		}

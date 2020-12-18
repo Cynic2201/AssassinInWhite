@@ -5,5 +5,5 @@
 /// @DnDArgument : "y" "200"
 /// @DnDArgument : "xscale" "1.5"
 /// @DnDArgument : "yscale" "1.5"
-/// @DnDArgument : "caption" ""Game Over.   Restart? (R)  Exit? (ESC)""
-draw_text_transformed(500, 200, string("Game Over.   Restart? (R)  Exit? (ESC)") + "", 1.5, 1.5, 0);
+/// @DnDArgument : "caption" ""Game Over.   Restart Room? (R)  Exit? (ESC)""
+draw_text_transformed(500, 200, string("Game Over.   Restart Room? (R)  Exit? (ESC)") + "", 1.5, 1.5, 0);
