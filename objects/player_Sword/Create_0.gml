@@ -16,3 +16,10 @@ draw_text(x + 0, y + 0, string("Caption: ") + "");
 /// @DnDArgument : "expr" "player_Player.image_xscale"
 /// @DnDArgument : "var" "image_xscale"
 image_xscale = player_Player.image_xscale;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 49154E72
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "player_Player.sword"
+player_Player.sword = true;

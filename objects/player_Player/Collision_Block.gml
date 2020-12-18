@@ -15,6 +15,14 @@ vspeed = 0;
 var l7A5B593E_0 = instance_place(x + 0, y + 1, Block);
 if ((l7A5B593E_0 > 0))
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 140F020D
+	/// @DnDParent : 7A5B593E
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "air"
+	air = false;
+
 	/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
 	/// @DnDVersion : 1
 	/// @DnDHash : 36A9E417
