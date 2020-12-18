@@ -499,6 +499,14 @@ if ((l6B9CEBAB_0 > 0))
 		sprite_index = spr_playerwallleft;
 		image_index = 0;
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 05F85421
+		/// @DnDParent : 01D260C6
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "var" "image_xscale"
+		image_xscale = -1;
+	
 		/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDVersion : 1
 		/// @DnDHash : 59FF3DDA
