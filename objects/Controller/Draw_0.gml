@@ -7,18 +7,6 @@ var l5C953935_0 = false;
 l5C953935_0 = instance_exists(enemy_boss);
 if(l5C953935_0)
 {
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 4927B89D
-	/// @DnDApplyTo : {player_Player}
-	/// @DnDParent : 5C953935
-	/// @DnDArgument : "spriteind" "spr_Title"
-	/// @DnDSaveInfo : "spriteind" "spr_Title"
-	with(player_Player) {
-	sprite_index = spr_Title;
-	image_index = 0;
-	}
-
 	/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 	/// @DnDVersion : 1
 	/// @DnDHash : 773668BF
