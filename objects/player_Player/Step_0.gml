@@ -165,6 +165,14 @@ if (l72B1E886_0)
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 2357CC52
+		/// @DnDParent : 295A81DF
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "moving_right"
+		moving_right = true;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 00B37E99
 		/// @DnDParent : 295A81DF
 		/// @DnDArgument : "expr" "1"
