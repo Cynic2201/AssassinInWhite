@@ -1,0 +1,41 @@
+{
+  "spriteId": {
+    "name": "spr_spearman",
+    "path": "sprites/spr_spearman/spr_spearman.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "enemy_Spearman",
+    "path": "objects/enemy_Spearman/enemy_Spearman.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player_Sword","path":"objects/player_Sword/player_Sword.yy",},"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"enemy_health","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "enemy_boss",
+  "tags": [],
+  "resourceType": "GMObject",
+}

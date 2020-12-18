@@ -19,9 +19,9 @@ if(num == 3)
 	/// @DnDHash : 266CC9BB
 	/// @DnDParent : 4ECEFA41
 	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos" "-120"
+	/// @DnDArgument : "ypos" "-60"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "Potion"
 	/// @DnDSaveInfo : "objectid" "Potion"
-	instance_create_layer(x + 0, y + -120, "Instances", Potion);
+	instance_create_layer(x + 0, y + -60, "Instances", Potion);
 }
