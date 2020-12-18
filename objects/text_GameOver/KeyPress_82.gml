@@ -12,3 +12,14 @@ with(Controller) {
 
 __dnd_health = real(100);
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4C6BF970
+/// @DnDApplyTo : {Controller}
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "boss_made"
+with(Controller) {
+boss_made = false;
+
+}
