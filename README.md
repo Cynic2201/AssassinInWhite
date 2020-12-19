@@ -19,4 +19,5 @@ Cheats:
 Next level - Alt + N
 Full health - Alt + H
 Speed increase - Alt + S
-Jump eight increase - Alt + J
+Jump height increase - Alt + J
+Kill self - Alt + K
