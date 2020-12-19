@@ -254,6 +254,14 @@ if (l0E42BB94_0)
 	var l2CF7ADD5_0 = instance_place(x + 0, y + 1, Block);
 	if ((l2CF7ADD5_0 > 0))
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 530BDD0B
+		/// @DnDParent : 2CF7ADD5
+		/// @DnDArgument : "soundid" "snd_jump"
+		/// @DnDSaveInfo : "soundid" "snd_jump"
+		audio_play_sound(snd_jump, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDVersion : 1
 		/// @DnDHash : 0FBE8493

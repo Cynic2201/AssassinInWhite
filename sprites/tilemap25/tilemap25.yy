@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"835b364a-a7ce-403b-b597-248dd3e830ce","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "AssassinInWhite",
-    "path": "AssassinInWhite.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "tilemap25",
