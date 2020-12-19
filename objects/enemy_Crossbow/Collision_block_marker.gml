@@ -5,6 +5,13 @@
 /// @DnDArgument : "type" "1"
 hspeed = hspeed *  -1;
 
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 513A4ED4
+/// @DnDArgument : "x" "hspeed * -5"
+/// @DnDArgument : "x_relative" "1"
+x += hspeed * -5;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0448A017
