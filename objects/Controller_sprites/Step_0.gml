@@ -157,11 +157,12 @@ if(l574C265F_0)
 						/// @DnDHash : 298BAC44
 						/// @DnDApplyTo : {player_Player}
 						/// @DnDParent : 07D8F4C7
+						/// @DnDArgument : "imageind" "1"
 						/// @DnDArgument : "spriteind" "spr_playerRun"
 						/// @DnDSaveInfo : "spriteind" "spr_playerRun"
 						with(player_Player) {
 						sprite_index = spr_playerRun;
-						image_index = 0;
+						image_index = 1;
 						}
 					}
 				
@@ -184,11 +185,12 @@ if(l574C265F_0)
 							/// @DnDHash : 54393DA3
 							/// @DnDApplyTo : {player_Player}
 							/// @DnDParent : 3347725B
+							/// @DnDArgument : "imageind" "1"
 							/// @DnDArgument : "spriteind" "spr_playerRun"
 							/// @DnDSaveInfo : "spriteind" "spr_playerRun"
 							with(player_Player) {
 							sprite_index = spr_playerRun;
-							image_index = 0;
+							image_index = 1;
 							}
 						}
 					

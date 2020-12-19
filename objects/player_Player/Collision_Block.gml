@@ -8,11 +8,11 @@ vspeed = 0;
 /// @DnDVersion : 1.1
 /// @DnDHash : 7A5B593E
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "1"
+/// @DnDArgument : "y" "3"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Block"
 /// @DnDSaveInfo : "object" "Block"
-var l7A5B593E_0 = instance_place(x + 0, y + 1, Block);
+var l7A5B593E_0 = instance_place(x + 0, y + 3, Block);
 if ((l7A5B593E_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
