@@ -11,14 +11,14 @@ if(l5C953935_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 773668BF
 	/// @DnDParent : 5C953935
-	/// @DnDArgument : "x1" "3900"
+	/// @DnDArgument : "x1" "4000"
 	/// @DnDArgument : "y1" "600"
-	/// @DnDArgument : "x2" "4100"
+	/// @DnDArgument : "x2" "4200"
 	/// @DnDArgument : "y2" "620"
 	/// @DnDArgument : "value" "enemy_boss.enemy_health"
 	/// @DnDArgument : "backcol" "$FF333333"
 	/// @DnDArgument : "barcol" "$FF000000"
 	/// @DnDArgument : "mincol" "$FF0000FF"
 	/// @DnDArgument : "maxcol" "$FF00FF04"
-	draw_healthbar(3900, 600, 4100, 620, enemy_boss.enemy_health, $FF333333 & $FFFFFF, $FF0000FF & $FFFFFF, $FF00FF04 & $FFFFFF, 0, (($FF333333>>24) != 0), (($FF000000>>24) != 0));
+	draw_healthbar(4000, 600, 4200, 620, enemy_boss.enemy_health, $FF333333 & $FFFFFF, $FF0000FF & $FFFFFF, $FF00FF04 & $FFFFFF, 0, (($FF333333>>24) != 0), (($FF000000>>24) != 0));
 }
