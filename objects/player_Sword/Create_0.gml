@@ -3,12 +3,12 @@
 /// @DnDHash : 21F9BB33
 alarm_set(0, 30);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 2E06B4FA
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-draw_text(x + 0, y + 0, string("Caption: ") + "");
+/// @DnDHash : 5FF79F59
+/// @DnDArgument : "soundid" "sfx_atk"
+/// @DnDSaveInfo : "soundid" "sfx_atk"
+audio_play_sound(sfx_atk, 0, 0);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
