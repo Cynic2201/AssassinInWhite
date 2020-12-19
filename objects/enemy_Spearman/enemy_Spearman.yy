@@ -26,7 +26,8 @@
   "eventList": [
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":5,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Block","path":"objects/Block/Block.yy",},"parent":{"name":"enemy_Spearman","path":"objects/enemy_Spearman/enemy_Spearman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
