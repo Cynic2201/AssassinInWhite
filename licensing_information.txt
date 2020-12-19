@@ -2,4 +2,4 @@ Producer: Devin Williams
 Programmer: Tarler Stack
 Designer: Gabriel Peterson
 Artist: Tyler Johnson
-All Sound Effects and Music by Tyler A.Johnson(2020)
+All Sprites, Sound Effects and Music by Tyler A.Johnson(2020)
