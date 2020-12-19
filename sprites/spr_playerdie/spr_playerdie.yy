@@ -32,7 +32,7 @@
     "spriteId": {"name":"spr_playerdie","path":"sprites/spr_playerdie/spr_playerdie.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

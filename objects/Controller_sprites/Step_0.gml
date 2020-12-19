@@ -152,28 +152,16 @@ if(l574C265F_0)
 					/// @DnDArgument : "value" "true"
 					if(player_Player.moving_left == true)
 					{
-						/// @DnDAction : YoYo Games.Random.Get_Random_Number
-						/// @DnDVersion : 1
-						/// @DnDHash : 5BA2BFD2
-						/// @DnDParent : 07D8F4C7
-						/// @DnDArgument : "var" "num1"
-						/// @DnDArgument : "var_temp" "1"
-						/// @DnDArgument : "type" "1"
-						/// @DnDArgument : "min" "1"
-						/// @DnDArgument : "max" "2"
-						var num1 = floor(random_range(1, 2 + 1));
-					
 						/// @DnDAction : YoYo Games.Instances.Set_Sprite
 						/// @DnDVersion : 1
 						/// @DnDHash : 298BAC44
 						/// @DnDApplyTo : {player_Player}
 						/// @DnDParent : 07D8F4C7
-						/// @DnDArgument : "imageind" "num1"
 						/// @DnDArgument : "spriteind" "spr_playerRun"
 						/// @DnDSaveInfo : "spriteind" "spr_playerRun"
 						with(player_Player) {
 						sprite_index = spr_playerRun;
-						image_index = num1;
+						image_index = 0;
 						}
 					}
 				
@@ -191,28 +179,16 @@ if(l574C265F_0)
 						/// @DnDArgument : "value" "true"
 						if(player_Player.moving_right == true)
 						{
-							/// @DnDAction : YoYo Games.Random.Get_Random_Number
-							/// @DnDVersion : 1
-							/// @DnDHash : 4D8CF258
-							/// @DnDParent : 3347725B
-							/// @DnDArgument : "var" "num2"
-							/// @DnDArgument : "var_temp" "1"
-							/// @DnDArgument : "type" "1"
-							/// @DnDArgument : "min" "1"
-							/// @DnDArgument : "max" "2"
-							var num2 = floor(random_range(1, 2 + 1));
-						
 							/// @DnDAction : YoYo Games.Instances.Set_Sprite
 							/// @DnDVersion : 1
 							/// @DnDHash : 54393DA3
 							/// @DnDApplyTo : {player_Player}
 							/// @DnDParent : 3347725B
-							/// @DnDArgument : "imageind" "num2"
 							/// @DnDArgument : "spriteind" "spr_playerRun"
 							/// @DnDSaveInfo : "spriteind" "spr_playerRun"
 							with(player_Player) {
 							sprite_index = spr_playerRun;
-							image_index = num2;
+							image_index = 0;
 							}
 						}
 					
@@ -222,28 +198,16 @@ if(l574C265F_0)
 						/// @DnDParent : 517F79CB
 						else
 						{
-							/// @DnDAction : YoYo Games.Random.Get_Random_Number
-							/// @DnDVersion : 1
-							/// @DnDHash : 0B5EFBB8
-							/// @DnDParent : 27973771
-							/// @DnDArgument : "var" "num3"
-							/// @DnDArgument : "var_temp" "1"
-							/// @DnDArgument : "type" "1"
-							/// @DnDArgument : "min" "1"
-							/// @DnDArgument : "max" "2"
-							var num3 = floor(random_range(1, 2 + 1));
-						
 							/// @DnDAction : YoYo Games.Instances.Set_Sprite
 							/// @DnDVersion : 1
 							/// @DnDHash : 4BB289DD
 							/// @DnDApplyTo : {player_Player}
 							/// @DnDParent : 27973771
-							/// @DnDArgument : "imageind" "num3"
 							/// @DnDArgument : "spriteind" "spr_playeridle"
 							/// @DnDSaveInfo : "spriteind" "spr_playeridle"
 							with(player_Player) {
 							sprite_index = spr_playeridle;
-							image_index = num3;
+							image_index = 0;
 							}
 						}
 					}
