@@ -75,7 +75,6 @@
     {"id":{"name":"block_door","path":"objects/block_door/block_door.yy",},"order":22,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
     {"id":{"name":"block_doorstopper","path":"objects/block_doorstopper/block_doorstopper.yy",},"order":23,},
-    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":16,},
     {"id":{"name":"spr_playeridle","path":"sprites/spr_playeridle/spr_playeridle.yy",},"order":3,},
     {"id":{"name":"spr_playerwallright","path":"sprites/spr_playerwallright/spr_playerwallright.yy",},"order":26,},
     {"id":{"name":"enemy_Spear","path":"objects/enemy_Spear/enemy_Spear.yy",},"order":10,},
