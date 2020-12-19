@@ -17,6 +17,7 @@
     {"id":{"name":"Potion","path":"objects/Potion/Potion.yy",},"order":18,},
     {"id":{"name":"spr_playerdie","path":"sprites/spr_playerdie/spr_playerdie.yy",},"order":28,},
     {"id":{"name":"player_Player","path":"objects/player_Player/player_Player.yy",},"order":1,},
+    {"id":{"name":"Path6","path":"paths/Path6/Path6.yy",},"order":16,},
     {"id":{"name":"Block","path":"objects/Block/Block.yy",},"order":0,},
     {"id":{"name":"spr_bolt","path":"sprites/spr_bolt/spr_bolt.yy",},"order":6,},
     {"id":{"name":"spr_spearmanspear","path":"sprites/spr_spearmanspear/spr_spearmanspear.yy",},"order":10,},
