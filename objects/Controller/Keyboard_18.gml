@@ -73,3 +73,19 @@ if (l77D6DF1D_0)
 	
 	}
 }
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 0E1CBF27
+/// @DnDArgument : "key" "ord("K")"
+var l0E1CBF27_0;
+l0E1CBF27_0 = keyboard_check_pressed(ord("K"));
+if (l0E1CBF27_0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 33D4DB49
+	/// @DnDApplyTo : {player_Player}
+	/// @DnDParent : 0E1CBF27
+	with(player_Player) instance_destroy();
+}
