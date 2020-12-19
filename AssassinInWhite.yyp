@@ -50,6 +50,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"text_GameOver","path":"objects/text_GameOver/text_GameOver.yy",},"order":6,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":32,},
     {"id":{"name":"spr_level3","path":"sprites/spr_level3/spr_level3.yy",},"order":14,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":30,},
     {"id":{"name":"Path5","path":"paths/Path5/Path5.yy",},"order":4,},

@@ -57,10 +57,10 @@ if(l0B6FD11F_0)
 					/// @DnDHash : 0984B617
 					/// @DnDParent : 6B65A15B
 					/// @DnDArgument : "xpos" "3904"
-					/// @DnDArgument : "ypos" "544"
+					/// @DnDArgument : "ypos" "512"
 					/// @DnDArgument : "objectid" "enemy_boss"
 					/// @DnDSaveInfo : "objectid" "enemy_boss"
-					instance_create_layer(3904, 544, "Instances", enemy_boss);
+					instance_create_layer(3904, 512, "Instances", enemy_boss);
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1

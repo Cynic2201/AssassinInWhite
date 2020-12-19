@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_spearman",
-    "path": "sprites/spr_spearman/spr_spearman.yy",
+    "name": "spr_boss",
+    "path": "sprites/spr_boss/spr_boss.yy",
   },
   "solid": false,
   "visible": true,
