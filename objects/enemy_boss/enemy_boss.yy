@@ -26,10 +26,14 @@
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player_Sword","path":"objects/player_Sword/player_Sword.yy",},"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Block","path":"objects/Block/Block.yy",},"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":5,"eventType":2,"collisionObjectId":null,"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"block_marker","path":"objects/block_marker/block_marker.yy",},"parent":{"name":"enemy_boss","path":"objects/enemy_boss/enemy_boss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"enemy_health","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"move_speed","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"objectId":{"name":"enemy_Crossbow","path":"objects/enemy_Crossbow/enemy_Crossbow.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
