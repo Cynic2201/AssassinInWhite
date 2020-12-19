@@ -15,14 +15,6 @@ if(l574C265F_0)
 	/// @DnDArgument : "value" "true"
 	if(player_Player.change == true)
 	{
-		/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-		/// @DnDVersion : 1
-		/// @DnDHash : 35EA8D4B
-		/// @DnDApplyTo : {player_Player}
-		/// @DnDParent : 3BCAB731
-		/// @DnDArgument : "speed" "30"
-		with(player_Player) image_speed = 30;
-	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5B0D6838
