@@ -531,6 +531,16 @@ var l4456B0EB_0 = __dnd_health <= 0;
 }
 if(l4456B0EB_0)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 2ACE8544
+	/// @DnDParent : 4456B0EB
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "player_dead"
+	/// @DnDSaveInfo : "objectid" "player_dead"
+	instance_create_layer(x + 0, y + 0, "Instances", player_dead);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 27E0D2DC

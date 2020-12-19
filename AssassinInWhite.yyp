@@ -58,6 +58,7 @@
     {"id":{"name":"block_moving3","path":"objects/block_moving3/block_moving3.yy",},"order":15,},
     {"id":{"name":"block_moving","path":"objects/block_moving/block_moving.yy",},"order":13,},
     {"id":{"name":"spr_crossbow","path":"sprites/spr_crossbow/spr_crossbow.yy",},"order":4,},
+    {"id":{"name":"player_dead","path":"objects/player_dead/player_dead.yy",},"order":30,},
     {"id":{"name":"block_moving2","path":"objects/block_moving2/block_moving2.yy",},"order":14,},
     {"id":{"name":"block_arroweater","path":"objects/block_arroweater/block_arroweater.yy",},"order":19,},
     {"id":{"name":"block_Floating","path":"objects/block_Floating/block_Floating.yy",},"order":11,},
