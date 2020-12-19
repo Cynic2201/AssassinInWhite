@@ -19,4 +19,12 @@ if(l3CBE9739_0)
 	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "player_Player.sword"
 	player_Player.sword = false;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5B7D39B4
+	/// @DnDParent : 3CBE9739
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "player_Player.change"
+	player_Player.change = true;
 }

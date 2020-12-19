@@ -23,6 +23,14 @@ if ((l7A5B593E_0 > 0))
 	/// @DnDArgument : "var" "air"
 	air = false;
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 06E4ECEC
+	/// @DnDParent : 7A5B593E
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "change"
+	change = true;
+
 	/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
 	/// @DnDVersion : 1
 	/// @DnDHash : 36A9E417

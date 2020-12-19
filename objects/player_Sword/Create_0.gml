@@ -23,3 +23,10 @@ image_xscale = player_Player.image_xscale;
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "player_Player.sword"
 player_Player.sword = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 07903FE9
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "player_Player.change"
+player_Player.change = true;
