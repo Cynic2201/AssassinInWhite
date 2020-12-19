@@ -24,6 +24,15 @@ if(l3AAFB037_0)
 		/// @DnDArgument : "alarm" "5"
 		alarm_set(5, 90);
 	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 3C7ED214
+		/// @DnDParent : 69C9F4A8
+		/// @DnDArgument : "spriteind" "spr_bossattack"
+		/// @DnDSaveInfo : "spriteind" "spr_bossattack"
+		sprite_index = spr_bossattack;
+		image_index = 0;
+	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 1B1E060E
