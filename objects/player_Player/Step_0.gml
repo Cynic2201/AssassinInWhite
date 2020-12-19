@@ -114,21 +114,20 @@ if (l274DD72E_0)
 		/// @DnDArgument : "var" "air"
 		air = true;
 	}
+}
 
-	/// @DnDAction : YoYo Games.Common.Else
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 2EC17B7B
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2EC17B7B
-	/// @DnDParent : 274DD72E
-	else
-	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 127F935B
-		/// @DnDParent : 2EC17B7B
-		/// @DnDArgument : "expr" "false"
-		/// @DnDArgument : "var" "moving_left"
-		moving_left = false;
-	}
+	/// @DnDHash : 127F935B
+	/// @DnDParent : 2EC17B7B
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "moving_left"
+	moving_left = false;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -165,6 +164,14 @@ if (l72B1E886_0)
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 2357CC52
+		/// @DnDParent : 295A81DF
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "moving_right"
+		moving_right = true;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 00B37E99
 		/// @DnDParent : 295A81DF
 		/// @DnDArgument : "expr" "1"
@@ -176,9 +183,9 @@ if (l72B1E886_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7A774ECA
 	/// @DnDParent : 72B1E886
-	/// @DnDArgument : "var" "stuck_right"
+	/// @DnDArgument : "var" "stuck_left"
 	/// @DnDArgument : "value" "true"
-	if(stuck_right == true)
+	if(stuck_left == true)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -196,21 +203,20 @@ if (l72B1E886_0)
 		/// @DnDArgument : "var" "air"
 		air = true;
 	}
+}
 
-	/// @DnDAction : YoYo Games.Common.Else
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 62C72B73
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 62C72B73
-	/// @DnDParent : 72B1E886
-	else
-	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 67F87C5D
-		/// @DnDParent : 62C72B73
-		/// @DnDArgument : "expr" "false"
-		/// @DnDArgument : "var" "moving_right"
-		moving_right = false;
-	}
+	/// @DnDHash : 67F87C5D
+	/// @DnDParent : 62C72B73
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "moving_right"
+	moving_right = false;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
