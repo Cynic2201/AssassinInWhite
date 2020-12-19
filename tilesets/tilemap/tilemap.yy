@@ -1,5 +1,4 @@
 {
-  "name": "tilemap",
   "spriteId": {
     "name": "tilemap25",
     "path": "sprites/tilemap25/tilemap25.yy",
@@ -137,6 +136,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tilemap",
   "tags": [],
   "resourceType": "GMTileSet",
 }
