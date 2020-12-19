@@ -2,10 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 56025ACE
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-1"
-/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "y" "other.y-64"
 
-y += -1;
+y = other.y-64;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -27,3 +26,11 @@ vspeed = other.vspeed;
 /// @DnDArgument : "speed" "other.hspeed"
 /// @DnDArgument : "type" "1"
 hspeed = other.hspeed;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 33F78E0F
+/// @DnDArgument : "spriteind" "spr_playeridle"
+/// @DnDSaveInfo : "spriteind" "spr_playeridle"
+sprite_index = spr_playeridle;
+image_index = 0;
