@@ -7,6 +7,13 @@
 
 y += -1;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7CEF00FD
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "air"
+air = false;
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 4A7BD60F
